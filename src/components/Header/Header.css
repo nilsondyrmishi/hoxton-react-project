@@ -1,0 +1,9 @@
+.nav-link{
+    width: 0;
+    height: 2.5px;
+    transition: 1s;
+    bottom: -3px;
+    left: 0;
+    color: black;
+    position: relative;
+}
