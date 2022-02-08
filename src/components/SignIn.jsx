@@ -9,6 +9,8 @@ function SignIn({ setUsers }) {
                 if (users.password === password) {
                     navigate("/");
                     setUsers(users);
+                }else{
+                    console.log("nope")
                 }
             });
     }

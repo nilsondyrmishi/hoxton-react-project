@@ -3,8 +3,7 @@ function Motto() {
         <section className="motto">
             <h3 className="motto-title">OUR Motto</h3>
             <h4 className="motto-description">
-                At LOGO, we strive to offer you best-selected clothes, premium
-                quality.
+                AT LOGO, THE BEST OR NOTHING.
             </h4>
         </section>
     );

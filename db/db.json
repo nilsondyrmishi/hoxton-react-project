@@ -1,9 +1,27 @@
 {
   "clothes": [
     {
-      "id": "tshirt1",
+      "id": "jacket",
+      "number": "1",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "date": "2021-12-30"
+    },
+    {
+      "id": "tshirt1.2",
+      "number": "1",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "date": "2021-12-30"
+    },
+    {
+      "id": "tshirt1.3",
       "number": "1",
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "date": "2021-12-30"
+    },
+    {
+      "id": "tshirt1.4",
+      "number": "1",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
       "date": "2021-12-30"
     },
     {
@@ -20,19 +38,75 @@
     }
   ],
   "users": [
-
+    {
+      "id": "nilson.dyrmishi@mail.com",
+      "password": "123456",
+      "firstName": "Nilson",
+      "lastName": "Dyrmishi",
+      "address": "Rruga \"Barrikadave",
+      "bucket": []
+    },
     {
       "id": "nilson.dyrmishi@gmail.com",
-      "password": "vvvvvv",
+      "password": "111111",
+      "firstName": "Nilson",
+      "lastName": "Dyrmishi",
+      "address": "Rruga \"Barrikadave",
+      "bucket": []
+    },
+    {
+      "id": "nilon.dyrmishi@gmail.com",
+      "password": "123456",
       "firstName": "Nilson",
       "lastName": "Dyrmishi",
       "address": "Rruga \"Barrikadave",
       "bucket": [
+        {
+          "id": "jacket",
+          "type": "clothes",
+          "price": 40,
+          "quantity": 4
+        }
       ]
     },
     {
-      "id": "nilson.dyrmishi@gma.com",
-      "password": "vvvvvvvv",
+      "id": "nilsn.dyrmishi@gmail.com",
+      "password": "123456",
+      "firstName": "Nilson",
+      "lastName": "Dyrmishi",
+      "address": "Rruga \"Barrikadave",
+      "bucket": [
+        {
+          "id": "tshirt1.2",
+          "type": "clothes",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "id": "jacket",
+          "type": "clothes",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "id": "tshirt1.4",
+          "type": "clothes",
+          "price": 40,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "brrrr.dyrmishi@gmail.com",
+      "password": "123456",
+      "firstName": "Nilson",
+      "lastName": "Dyrmishi",
+      "address": "Rruga \"Barrikadave",
+      "bucket": []
+    },
+    {
+      "id": "nilson.dyrmishi@gl.com",
+      "password": "123456",
       "firstName": "Nilson",
       "lastName": "Dyrmishi",
       "address": "Rruga \"Barrikadave",

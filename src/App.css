@@ -46,6 +46,7 @@ form {
 
 
 .clothes .clothes-list {
+    padding-top: 50px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -110,7 +111,7 @@ form {
 
 .newsletter-div .newsletter-headline {
     width: 12ch;
-    color: rgb(33, 33, 33);
+    color: rgb(24, 21, 21);
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
@@ -124,4 +125,70 @@ form {
     margin-bottom: 1.3rem;
 }
 
+img {
+    width:100px;
+    height: 100px;
+}
 
+
+
+
+
+.cit {
+    color: white;
+    background-color: rgb(89, 40, 40);
+    border: 1px solid rgb(87, 39, 39);
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 900;
+}
+.cit:hover,
+.cit:active {
+    color: rgb(98, 39, 39);
+    background-color: #a8a4a4;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.main .image img {
+    border-radius: 1rem;
+}
+.description {
+    padding: 1rem;
+    display: grid;
+}
+.description,
+.image {
+    aspect-ratio: 1/1;
+}
+
+.description .name-number {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.description .name-number .name {
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.description .name-number .number {
+    font-family: "Maison Neue", sans-serif;
+    font-size: 0.8rem;
+    color: rgb(60, 60, 60);
+}
+
+.description .info {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    color: rgb(60, 60, 60);
+    overflow: auto;
+}

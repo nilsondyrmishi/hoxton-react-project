@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function SignUp({ setUsers }) {
     const navigate = useNavigate();
     function createNewUserOnServer(users) {
-        fetch("http://localhost:3000/users/", {
+        fetch("http://localhost:3000/users", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

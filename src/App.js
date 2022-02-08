@@ -11,7 +11,7 @@ import Clothes from "./pages/Clothes";
 import ClothesDescription from "./pages/ClothesDescription";
 
 function App() {
-  const [users, setUsers] = useState([])
+  const [users, setUsers] = useState(null)
 
 
 
@@ -21,10 +21,13 @@ function App() {
       <Routes>
         <Route index element={<Home/>}/>
           <Route path="clothes" element={<Clothes/>}/>
-          <Route path="clothes/id" element={<ClothesDescription
+          <Route path="clothes/:id"
+                 element={
+              <ClothesDescription
               users={users}
               setUsers={setUsers}/>
           }/>
+
           <Route path="login"
                  element={
               <RegisterLogIn
@@ -33,8 +36,8 @@ function App() {
           />
           <Route path="bucket" element={<Bucket users={users} setUsers={setUsers}/> }/>
           <Route path="*" element={<NotFound />} />
-
       </Routes>
+
       </div>
   );
 }

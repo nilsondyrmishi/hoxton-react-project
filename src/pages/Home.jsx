@@ -12,10 +12,16 @@ function Home(){
     }, []);
     return(
         <div>
-            <ClothesList clothes={clothes}/>
-            <Link to="/clothes">
-                BUY OUR BEST CLOTHES
-            </Link>
+            <section className="clothes">
+            <main className="clothes-content">
+                <ClothesList clothes={clothes} />
+                <div className="clothes-link">
+                    <Link className="cta" to="/clothes">
+                        SHOP OUR CLOTHES
+                    </Link>
+                </div>
+            </main>
+        </section>
             <Motto/>
             <Newsletter/>
         </div>
